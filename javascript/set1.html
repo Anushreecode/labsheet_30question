@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Find Greatest Number</title>
+</head>
+
+<body>
+    <script>
+        const numberlist = []; 
+
+        for (let i = 0; i < 3; i++) {
+            const number = Number(prompt("Enter a number:"));
+            numberlist.push(number);
+        }
+
+        let greatest = numberlist[0]; 
+
+        for (let i = 1; i < numberlist.length; i++) {
+            if (numberlist[i] > greatest) {
+                greatest = numberlist[i];
+            }
+        }
+        console.log("Greatest number is:", greatest);
+    </script>
+</body>
+
+</html>
