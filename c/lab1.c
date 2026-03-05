@@ -1,5 +1,5 @@
 #include <stdio.h>
-void checker(int x)
+void checker(int x) //
 {
     if (x <0)
     {

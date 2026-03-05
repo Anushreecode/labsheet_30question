@@ -4,17 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>simple intrest</title>
 </head>
 
 <body>
     <script>
-        for (let index = 0; index < 101; index++) {
-
-            if (index % 2 != 0) {
-                document.writeln(index);
-            }
+        function simpleinterest(p, t, r) {
+            return (p * t * r) / 100
         }
+        document.write("Simple intrest is: " + simpleinterest(1050, 2, 5));
     </script>
 </body>
 
